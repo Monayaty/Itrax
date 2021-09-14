@@ -1,0 +1,34 @@
+body
+{
+	background-color: lightgray;
+}
+main
+{
+	margin-top: 30px;
+	width: 70%;
+	margin: auto;
+}
+img
+{
+	margin-top: 30px;
+	width: 400px;
+}
+.introduce
+{
+	width: 400px;
+	float: right;
+
+}
+.introduce p 
+{
+	color: gray;
+}
+button
+{
+	color: white;
+	background-color: #4B57DE;
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
