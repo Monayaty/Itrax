@@ -1,0 +1,52 @@
+body
+{
+	margin: 0;
+}
+
+.container
+{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+hr
+{
+	width: 20%;
+}
+.container h5
+{
+	color: green;
+}
+.container h1
+{
+	font-size:30px;
+
+}
+.info
+{
+	width: 50%;
+	margin: 0 30%;
+}
+img
+{
+	float: left;
+	margin: 15px;
+}
+.block
+{
+	width: 40%;
+	text-align: left;
+	float: left;
+	padding: 0 20px;
+}
+p
+{
+	font-size: 10px;
+	color: gray;
+	line-height: 1.5em;
+	
+}
+.block-info
+{
+	padding-left: 62px;
+}
