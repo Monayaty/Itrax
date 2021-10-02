@@ -350,10 +350,10 @@ nav #nav
 
 .beautiful-container .beautiful-content .beautiful-details
 {
-	width: 48%;
+	width: 46%;
 	height: 100%;
 	padding-left: 20px;
-	float: left;
+	float: right;
 	color: #777777;
 	font-weight: 200;
 	font-size: 14px;
@@ -499,6 +499,7 @@ nav #nav
 	width: 99%;
 	height: 150px;
 	margin: 20px 0;
+	resize: none;
 }
 .contact form button
 {
@@ -685,5 +686,102 @@ footer .copy-social .social ul li a
     text-align: center;
    	width: 40px;
 	height: 40px;
+}
 
+/* Extra small devices (phones, 600px and down) */
+@media all and (max-width: 600px) 
+{
+	/*Home section*/
+
+	/*Glorious History Section*/
+	
+	/*Skills Section*/
+
+	/*Beautiful Experiences Section*/
+
+	/*Some Projects Section*/
+
+	/*Contact Section*/
+
+	/*Together Section*/
+
+	/*Footer Section*/
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+  	/*Home section*/
+
+	/*Glorious History Section*/
+
+	/*Skills Section*/
+
+	/*Beautiful Experiences Section*/
+
+	/*Some Projects Section*/
+
+	/*Contact Section*/
+
+	/*Together Section*/
+
+	/*Footer Section*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+  	/*Home section*/
+
+	/*Glorious History Section*/
+
+	/*Beautiful Experiences Section*/
+
+	/*Some Projects Section*/
+
+	/*Contact Section*/
+
+	/*Together Section*/
+
+	/*Footer Section*/
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+	/*Home section*/
+
+	/*Glorious History Section*/
+
+	/*Skills Section*/
+
+	/*Beautiful Experiences Section*/
+
+	/*Some Projects Section*/
+
+	/*Contact Section*/
+
+	/*Together Section*/
+
+	/*Footer Section*/
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+	/*Home section*/
+
+	/*Glorious History Section*/
+
+	/*Skills Section*/
+
+	/*Beautiful Experiences Section*/
+
+	/*Some Projects Section*/
+
+	/*Contact Section*/
+
+	/*Together Section*/
+
+	/*Footer Section*/
 }
