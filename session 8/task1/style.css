@@ -1,0 +1,134 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    color: #777;
+}
+
+.container
+{
+	width: 100%;
+	height: 600px;
+	margin-top: 20px;
+}
+
+.container .header
+{
+	text-align: center;
+	margin: 50px;
+}
+
+.container .header h2 
+{
+	color: black;
+	font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container .content
+{
+	width: 80%;
+	height:  80%;
+	margin: auto;
+	padding-top: 30px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.container .content .room
+{
+	width: 24%;
+	height: 100%;
+	text-align: center;
+}
+
+.container .content .room .img
+{
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.container .content .img img 
+{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.container .content .room .img:hover img
+{
+	transform: scale(1.2);
+	transition: 1s all;
+}
+
+.container .content .room .img button
+{
+	position: absolute;
+	bottom: 20px;
+	left: 25%;
+	background-color: #f3c300;
+	color: white;
+	font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    border: none;/*
+    position: relative;*/
+}
+
+/*.container .content .room .img .hover
+{
+	background-color: #f8b100;
+	transition: all 0.3s linear;
+	opacity: 0;
+	position: absolute;
+	transform: translatex(-100px);
+}
+*/
+.container .content .room .img button:hover
+{
+	
+    background-color: #f8b100;
+}
+
+.container .content .room .info
+{
+	padding: 10px;
+}
+
+.container .content .room .info .name
+{
+	font-size: 18px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0;
+}
+
+.container .content .room .info .price
+{
+	font-size: 24px;
+    line-height: 28px;
+    color: #52c5fd;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.container .content .room .info .price small
+{
+	font-weight: 300;
+    font-size: 14px;
+}
